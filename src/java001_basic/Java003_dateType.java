@@ -21,40 +21,40 @@ package java001_basic;
 
 public class Java003_dateType {
 	public static void main(String[] args) {
-		//(1)변수 선언
-		int data; //데이터타입 변수명;
-		
-		//(2)값을 할당
-		data =3; //data변수에 3값을 할당(저장)
-		
-		//int data = 3;
-		
-		System.out.println(data); //3
-		
-		data =10;
-		System.out.println(data); //10
-		
+		// (1)변수 선언
+		int data; // 데이터타입 변수명;
+
+		// (2)값을 할당
+		data = 3; // data변수에 3값을 할당(저장)
+
+		// int data = 3;
+
+		System.out.println(data); // 3
+
+		data = 10;
+		System.out.println(data); // 10
+
 		double avg = 4;
-		//Type mismatch: cannot convert from double to int
-		//크기 값이 다르기때문에 저장이 안됨
-		//int num = 4.0;
-		
-		//Type mismatch: cannot convert from float to long
-		//강제 저장시킬 수는 있지만 큰데이터를 작은 공간에 넣을때 데이터 손실이 일어날 수 있음
-		//long ko = 4.0F;
-		
-		int x = 0101; //8진수 표현
-		System.out.println(x); //65
-		
-		int y = 65; //10진수 표현
-		System.out.println(y); //65
-		
-		int z = 0B101; //2진수 표현 (0B101 == 0b101)
-		System.out.println(z); //5
-		
-		int k = 0X101; //16진수로 표현 (0X101 == 0x101)
-		System.out.println(k); //257
-		
+		// Type mismatch: cannot convert from double to int
+		// 크기 값이 다르기때문에 저장이 안됨
+		// int num = 4.0;
+
+		// Type mismatch: cannot convert from float to long
+		// 강제 저장시킬 수는 있지만 큰데이터를 작은 공간에 넣을때 데이터 손실이 일어날 수 있음
+		// long ko = 4.0F;
+
+		int x = 0101; // 8진수 표현
+		System.out.println(x); // 65
+
+		int y = 65; // 10진수 표현
+		System.out.println(y); // 65
+
+		int z = 0B101; // 2진수 표현 (0B101 == 0b101)
+		System.out.println(z); // 5
+
+		int k = 0X101; // 16진수로 표현 (0X101 == 0x101)
+		System.out.println(k); // 257
+
 	}
-	
+
 }

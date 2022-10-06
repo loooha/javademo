@@ -14,10 +14,10 @@ package java001_basic.prob;
 public class Prob04 {
 
 	public static void main(String[] args) {
-		int year=2012;
-		
-		//여기에 작성하시오.
-		
+		int year = 2012;
+
+		// 여기에 작성하시오.
+
 	}
 
 }

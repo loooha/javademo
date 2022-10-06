@@ -14,13 +14,13 @@ package java002_statements;
 public class Java020_if {
 
 	public static void main(String[] args) {
-		char data ='B';
-		
-		if(data >= 'A' && data <= 'Z') {
+		char data = 'B';
+
+		if (data >= 'A' && data <= 'Z') {
 			System.out.printf("%c는 대문자입니다.\n", data);
-		}else if(data >= 'a'&& data <= 'z') {
+		} else if (data >= 'a' && data <= 'z') {
 			System.out.printf("%c는 소문자입니다.\n", data);
-		}else {
+		} else {
 			System.out.printf("%c는 기타입니다.\n", data);
 		}
 

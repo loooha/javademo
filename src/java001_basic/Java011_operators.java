@@ -6,14 +6,14 @@ public class Java011_operators {
 		int x = 5;
 		int y = 3;
 		int z = 5;
-		
-		System.out.println(x > y); //true
-		System.out.println(x < y); //false
-		System.out.println(x >= y); //true
-		System.out.println(x <= y); //false
-		System.out.println(x == y); //false
-		System.out.println(x != y); //true
-		
+
+		System.out.println(x > y); // true
+		System.out.println(x < y); // false
+		System.out.println(x >= y); // true
+		System.out.println(x <= y); // false
+		System.out.println(x == y); // false
+		System.out.println(x != y); // true
+
 	}
 
 }

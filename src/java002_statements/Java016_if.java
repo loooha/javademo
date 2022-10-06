@@ -20,7 +20,7 @@ public class Java016_if {
 		int num = 3;
 		if (num % 2 == 0) {
 			System.out.printf("%d는 짝수입니다.\n", num);
-		}else {
+		} else {
 			System.out.printf("%d는 홀수입니다.\n", num);
 		}
 	}

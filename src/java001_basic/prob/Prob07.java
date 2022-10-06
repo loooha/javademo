@@ -14,12 +14,8 @@ public class Prob07 {
 
 	public static void main(String[] args) {
 		int money = 7777;
-		int mok=money/500;		
-		
-		
-				
-	}//end main()
+		int mok = money / 500;
 
-}//end class
+	}// end main()
 
-
+}// end class

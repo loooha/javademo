@@ -18,7 +18,6 @@ public class Prob06 {
 		int jumsu = 85;
 
 		// 여기에 작성하시오.
-		
 
 	}// end main( )
 

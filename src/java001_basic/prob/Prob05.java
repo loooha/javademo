@@ -18,19 +18,12 @@ public class Prob05 {
 		int en = 45;
 		int jp = 22;
 		int hap = ko + en + jp;
-		
+
 //		double a = hap/3;
 //		boolean x = (a<=60) == "합격" || a>60 "불합격";
 //
 //		System.out.printf("평균 %d점");
-		
-		
-        
-	}//end main()
 
-}//end class
+	}// end main()
 
-
-
-
-
+}// end class

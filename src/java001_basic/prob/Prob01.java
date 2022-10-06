@@ -11,14 +11,13 @@ public class Prob01 {
 	public static void main(String[] args) {
 		int num = 10;
 		int res = 0;
-		
+
 //		res = num/10;
 //		
 //		boolean x = (1 == res--) && (0 == res++);
 //		
 //		System.out.println(();
-				
-		
+
 	}
 
 }

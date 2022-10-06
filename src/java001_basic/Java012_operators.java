@@ -5,9 +5,7 @@ public class Java012_operators {
 	public static void main(String[] args) {
 		/*
 		 * 
-		 * true && true => true
-		 * false || false => false
-		 * !true => false
+		 * true && true => true false || false => false !true => false
 		 * 
 		 */
 
@@ -16,10 +14,10 @@ public class Java012_operators {
 		int z = 3;
 		boolean res;
 		res = x < y && x == z;
-		System.out.println(res); //true
-		
+		System.out.println(res); // true
+
 		res = x > y || x == z;
-		System.out.println(res); //true
+		System.out.println(res); // true
 	}
 
 }

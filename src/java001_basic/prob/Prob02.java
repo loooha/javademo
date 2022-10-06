@@ -10,9 +10,9 @@ public class Prob02 {
 
 	public static void main(String[] args) {
 		int num = -10;
-		
-		System.out.println( Math.abs(num) );
-		
+
+		System.out.println(Math.abs(num));
+
 	}
 
 }
