@@ -1,4 +1,4 @@
-package java1005_basic;
+package java001_basic;
 
 public class Java007_operators {
 
@@ -10,8 +10,8 @@ public class Java007_operators {
 									//3.0
 									//3.33333...
 	
-		System.out.println((double)a/b);
-		System.out.println((double)(a/b));
+		System.out.println((double)a/b); //3.3333333333333335
+		System.out.println((double)(a/b)); //3.0
 		
 //		double c = 1.0;
 //		System.out.println(b*c);
