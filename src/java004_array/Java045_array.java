@@ -20,7 +20,7 @@ public class Java045_array {
 		int sum;
 
 		for (int index = 0; index < name.length; index++) {
-			System.out.printf("%8s", name[index]);
+			System.out.printf("%s", name[index]);
 
 			sum = 0;
 			for (int col = 0; col < 3; col++) {

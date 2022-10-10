@@ -9,10 +9,15 @@ package java004_array.prob;
 public class Prob_03 {
 
 	public static void main(String[] args) {
-       int num[]=new int[]{60,95,88};
-       //여기를 구현하시오.
-      
-       
-	}//end main()
+		int num[] = new int[] { 60, 95, 88 };
+		int sum = 0;
+		// 여기를 구현하시오.
+		for (int i = 0; i < num.length; i++) {
+			//System.out.println(num[i]);
+			sum += num[i];
+		}
+		System.out.printf("%s%d\n%s%d\n","합계: ", sum,"평균:  ", sum/3);
 
-}//end class
+	}// end main()
+
+}// end class

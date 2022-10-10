@@ -13,30 +13,6 @@ package java003_statements.prob;
 public class Prob_05 {
 
 	public static void main(String[] args) {
-		for (int i = 1; i <= 20; i++) {
-			if (i % 2 == 0) {
-				System.out.println("2의 배수:" + i);
-
-			}
-			for (i = 1; i <= 20; i++) {
-				if (i % 3 == 0) {
-					System.out.println("3의 배수:" + i);
-
-				}
-			}
-			for (i = 1; i <= 20; i++) {
-				if (i % 4 == 0) {
-					System.out.println("4의 배수:" + i);
-
-				}
-			}
-			for (i = 1; i <= 20; i++) {
-				if (i % 5 == 0) {
-					System.out.println("5의 배수:" + i);
-
-				}
-			}
-		}
 
 	}// end main()
 
