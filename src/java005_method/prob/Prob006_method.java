@@ -11,6 +11,15 @@ public class Prob006_method {
 
 	private static void primeNumber(int num) {
 		// 구현하세요.
+		for(int i=0; i <= 15; i++) {
+			if(15%i == 0) {
+				primeNumber(15);
+			}
+			i=0;
+			if(32%i==0) {
+				primeNumber(32);
+			}
+		}
 
 	}// end primeNumber( )
 }//end class
