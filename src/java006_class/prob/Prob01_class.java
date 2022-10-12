@@ -7,11 +7,26 @@ package java006_class.prob;
  * 자바도넛의 면적은 12.56
  */
 
+public class Menu{
+	String name;
+	int radius;
+	
+	double area() {
+		return radius * radius * 3.14;
+	}
+	
+	void display() {
+		System.out.printf("%s의 면적은 %4.2f", name, area());
+	}
+}
+
+
+
 public class Prob01_class {
 
 	public static void main(String[] args) {
 		//여기를 구현하세요.////////////////////	
-
+		Menu pz =
 	}//end main()
 
 }//end class

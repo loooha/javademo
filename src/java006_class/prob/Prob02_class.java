@@ -30,6 +30,10 @@ class Book2 {
 }
 
 
+
+
+
+//======================================================================
 public class Prob02_class {
 
 	public static void main(String[] args) {
