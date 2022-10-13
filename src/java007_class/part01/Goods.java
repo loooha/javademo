@@ -11,7 +11,6 @@ public class Goods {
 	}
 
 	public Goods(String name, int price, int numberOfStock, int sold) {
-		super();
 		this.name = name;
 		this.price = price;
 		this.numberOfStock = numberOfStock;
