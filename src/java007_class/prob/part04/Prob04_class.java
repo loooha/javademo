@@ -21,6 +21,7 @@ public class Prob04_class {
 		
 		public static void display(BookShop[] shop){
 	      //code별 가격 합계를 구하는 프로그램을 구현하시오.
+			int sum = 0;
 			
 			
 			
