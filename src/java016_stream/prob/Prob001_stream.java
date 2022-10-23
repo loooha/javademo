@@ -3,6 +3,8 @@ package java016_stream.prob;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
+import java.io.LineNumberReader;
 import java.io.RandomAccessFile;
 import java.util.Scanner;
 import java.util.StringTokenizer;
@@ -22,15 +24,23 @@ public class Prob001_stream {
 		// 각 학생의 총점을 출력하는 프로그램을 구현하시오.
 		File file = new File("./src/java016_stream/prob/score.txt");
 		FileReader fr = null;
-		int sum;
+		LineNumberReader nr = null;
+
 		try {
-			Scanner sc = new Scanner(file);
 			fr = new FileReader(file);
-			while(sc.hasNextLine()) {
-				String[] data = sc.nextLine().split("[:/]");
-				//score sr = new score(data[0], Integer.parseInt(data[1]),Integer.parseInt(data[2]),Integer.parseInt(data[3]));
+			nr = new LineNumberReader(fr);
+			String line = null;
+			while ((line = nr.readLine()) != null) {
+				String[] data = line.split("[:/]");
+				System.out.printf("%s의 점수 통합 :%d\n", data[0],
+						Integer.parseInt(data[1]) + Integer.parseInt(data[2]) + Integer.parseInt(data[3]));
+
 			}
 		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

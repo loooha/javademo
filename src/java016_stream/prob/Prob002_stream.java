@@ -27,7 +27,7 @@ public class Prob002_stream {
 
 	private static void makeVariable(String fileName) {
 		// 구현하세요.
-	
+
 
 	}// end makeVariable()
 }// end class
