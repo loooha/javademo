@@ -40,14 +40,16 @@ public class Prob003_ArrayList {
 		ArrayList<SmartPhone> smp = new ArrayList<SmartPhone>();
 		try {
 			Scanner sc = new Scanner(new File(pathFile));
-			String[] data = sc.nextLine().split(":");
-			SmartPhone sp = new SmartPhone();
-			sp.setProductId(data[0]);
-			sp.setName(data[1]);
-			sp.setPrice(Integer.parseInt(data[2]));
-			sp.setAmount(Integer.parseInt(data[3]));
-			sp.setMaker(data[4]);
-			smp.add(sp);
+			while (sc.hasNextLine()) {
+				String[] data = sc.nextLine().split(":");
+				SmartPhone sp = new SmartPhone();
+				sp.setProductId(data[0]);
+				sp.setName(data[1]);
+				sp.setPrice(Integer.parseInt(data[2]));
+				sp.setAmount(Integer.parseInt(data[3]));
+				sp.setMaker(data[4]);
+				smp.add(sp);
+			}
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
