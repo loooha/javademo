@@ -13,7 +13,7 @@ public class StringTest {
 
 		}
 		System.out.printf("합계: %.3f\n", sum);
-		System.out.printf("평균: %.3f\n", sum / 5);
+		System.out.printf("평균: %.3f\n", sum / arr.length);
 
 	}
 }

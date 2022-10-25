@@ -9,14 +9,14 @@ public class ArrayTest {
 		double avg = 0;
 
 		for (int i = 0; i < array.length; i++) {
+
 			for (int j = 0; j < array[i].length; j++) {
 				sum = sum + array[i][j];
 				avg = sum / 20;
 			}
 
 		}
-		System.out.printf("합계: %5.2f\n", sum);
-		System.out.printf("평균: %4.2f\n", avg);
+		System.out.printf("합계: %5.2f\n평균: %4.2f", sum, avg);
 	}
 
 }
