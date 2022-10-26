@@ -1,0 +1,10 @@
+입원, 퇴원 관리
+
+클래스 : Ward / Patient
+
+조작 : 환자조회 / 입원 / 퇴원 / 종료
+
+Patient
+	private String name; //환자이름
+	private int age //환자나이
+	private String 
