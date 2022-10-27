@@ -1,4 +1,4 @@
-package ncs.test04;
+package ncs.answ.test04;
 
 public class Product {
 	private String name;

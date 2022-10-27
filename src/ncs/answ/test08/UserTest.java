@@ -1,4 +1,4 @@
-package ncs.test08;
+package ncs.answ.test08;
 
 public class UserTest {
 

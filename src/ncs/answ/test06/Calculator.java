@@ -1,4 +1,4 @@
-package ncs.test06;
+package ncs.answ.test06;
 
 public class Calculator {
 	public static double getSum(int data) {

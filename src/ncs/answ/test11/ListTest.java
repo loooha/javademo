@@ -1,4 +1,4 @@
-package ncs.test11;
+package ncs.answ.test11;
 
 import java.util.*;
 

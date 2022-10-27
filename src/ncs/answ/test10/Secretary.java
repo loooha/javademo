@@ -1,4 +1,4 @@
-package ncs.test10;
+package ncs.answ.test10;
 
 class Secretary extends Employee implements Bonus{
 	public Secretary() {}

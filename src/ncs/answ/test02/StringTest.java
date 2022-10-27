@@ -1,4 +1,4 @@
-package ncs.test02;
+package ncs.answ.test02;
 
 public class StringTest {
 

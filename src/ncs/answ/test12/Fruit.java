@@ -1,4 +1,4 @@
-package ncs.test12;
+package ncs.answ.test12;
 
 public class Fruit {
 

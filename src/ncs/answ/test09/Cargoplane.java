@@ -1,4 +1,4 @@
-package ncs.test09;
+package ncs.answ.test09;
 
 public class Cargoplane extends Plane{
 	public Cargoplane(){}

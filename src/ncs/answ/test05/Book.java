@@ -1,4 +1,4 @@
-package ncs.test05;
+package ncs.answ.test05;
 
 public class Book {
 	

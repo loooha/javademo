@@ -1,4 +1,4 @@
-package ncs.test07;
+package ncs.answ.test07;
 
 public class Human {
 	private String name;

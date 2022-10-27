@@ -1,4 +1,4 @@
-package ncs.test10;
+package ncs.answ.test10;
 
 abstract class Employee{
 	private String name;
